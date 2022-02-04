@@ -63,11 +63,6 @@
         display: grid;
         grid-template-columns: 80px auto;
     }
-    .link{
-        text-decoration: underline;
-        color: #0099ff;
-        font-size: 12px;
-    }
     .btn {
         display: inline-block;
         font-weight: 400;
