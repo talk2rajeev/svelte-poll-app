@@ -15,7 +15,4 @@
     .logo-box {
         text-align: center;
     }
-    .logo-box > img {
-        height: 100px;
-    }
 </style>
