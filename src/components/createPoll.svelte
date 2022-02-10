@@ -22,14 +22,14 @@
     <div class="create-poll">
         <h3>Create Poll</h3>
         <div class="qna-grid">
-            <span>Que: </span> <input type="text" bind:value={pollQuestion}/>
+            <span>Question: </span> <input type="text" bind:value={pollQuestion}/>
         </div>
         <div>
             <div class="qna-grid">
-                <span>Option: A</span> <input type="text" class="option-input" on:input={(e)=> optionA = e.target.value}/>
+                <span>Option: (a)</span> <input type="text" class="option-input" on:input={(e)=> optionA = e.target.value}/>
             </div>
             <div class="qna-grid">
-                <span>Option: B</span> <input type="text" class="option-input" on:input={(e)=> optionB = e.target.value}/>
+                <span>Option: (b)</span> <input type="text" class="option-input" on:input={(e)=> optionB = e.target.value}/>
             </div>
         </div>
         <button class="btn btn-primary" on:click={createPollHandler}>Create Poll</button>
