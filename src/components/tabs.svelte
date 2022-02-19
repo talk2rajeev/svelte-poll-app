@@ -34,6 +34,7 @@
         margin-left: 15px;
         color: #555;
         font-size: 14px;
+        cursor: pointer;
     }
     li.active {
         color: brown;
