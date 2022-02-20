@@ -5,6 +5,7 @@
 ---
 
 # POC svelte app
+This is a self learning project.
 
 
 # svelte app
